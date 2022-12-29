@@ -38,5 +38,12 @@ module.exports = {
     '@typescript-eslint/member-delimiter-style': 'error', 
     '@typescript-eslint/semi': 'error'
   },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
+  },
   ignorePatterns: ['.eslintrc.js']
 }
