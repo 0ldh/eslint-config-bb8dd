@@ -1,5 +1,9 @@
 # eslint-config-bb8dd
 
+## env
+
+React + Typescript
+
 ## Usage
 
 ```yarn
