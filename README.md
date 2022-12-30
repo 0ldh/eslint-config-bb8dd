@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ?
 ## env
 ?
@@ -5,12 +6,23 @@ React + Typescript
 ?
 ## Usage
 ?
+=======
+# eslint-config-bb8dd
+
+## env
+
+React + Typescript
+
+## Usage
+
+>>>>>>> 7899e8351c12f19811fb521ffa9f3568c8741125
 ```yarn
 yarn add eslint-config-bb8dd
 ```
 ```node
 npm install eslint-config-bb8dd
 ```
+<<<<<<< HEAD
 
 code
 ```js
@@ -66,3 +78,5 @@ module.exports = {
 }
 
 ```
+=======
+>>>>>>> 7899e8351c12f19811fb521ffa9f3568c8741125
