@@ -1,20 +1,3 @@
-
-## env
-
-React + Typescript
-
-## Usage
-
-```yarn
-yarn add eslint-config-bb8dd
-```
-```node
-npm install eslint-config-bb8dd
-```
-
-code
-```js
-// .eslintrc.js
 module.exports = {
   env: {
     browser: true,
@@ -30,9 +13,12 @@ module.exports = {
   overrides: [
   ],
   parserOptions: {
-    project: ['./**/tsconfig.json', './tsconfig.json'],
-    ecmaVersion: 'latest',
-    sourceType: 'module'
+    parserOptions: {
+      project: 'tsconfig.json',
+      tsconfigRootDir: __dirname,
+      ecmaVersion: 'latest',
+      sourceType: 'module'
+    },
   },
   plugins: [
     '@typescript-eslint',
@@ -64,5 +50,3 @@ module.exports = {
   },
   ignorePatterns: ['.eslintrc.js']
 }
-
-```
