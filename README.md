@@ -5,10 +5,22 @@
 React + Typescript
 
 ## Usage
+```
 yarn add eslint-config-bb8dd
+```
+```
 npm install eslint-config-bb8dd
-code
+```
+```js
+// ...
+  parser: '@typescript-eslint/parser',
+  extends: [
+    'bb8dd'
+  ],
+// ...
+```
 
+## code
 ```js
 // .eslintrc.js
 module.exports = {
