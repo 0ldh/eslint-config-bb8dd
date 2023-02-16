@@ -38,6 +38,11 @@ module.exports = {
     'jsx-a11y/label-has-associated-control': 0,
     '@typescript-eslint/member-delimiter-style': 'error', 
     '@typescript-eslint/semi': 'error'
+    '@typescript-eslint/no-unused-vars': 1,
+    'no-unused-vars': 1,
+    '@typescript-eslint/max-len': 0,
+    'max-len': 0,
+    'react/require-default-props': 0,
   },
   settings: {
     'import/resolver': {
