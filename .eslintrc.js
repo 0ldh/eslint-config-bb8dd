@@ -20,7 +20,7 @@ module.exports = {
   },
   plugins: [
     '@typescript-eslint',
-    'react'
+    'react',
   ],
   rules: {
     'import/extensions': [
@@ -37,7 +37,7 @@ module.exports = {
     'linebreak-style': 0,
     'jsx-a11y/label-has-associated-control': 0,
     '@typescript-eslint/member-delimiter-style': 'error', 
-    '@typescript-eslint/semi': 'error'
+    '@typescript-eslint/semi': 'error',
     '@typescript-eslint/no-unused-vars': 1,
     'no-unused-vars': 1,
     '@typescript-eslint/max-len': 0,
