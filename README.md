@@ -13,23 +13,19 @@ npm install eslint-config-bb8dd
 ```
 ```js
 // eslintrc.js
-// ...
+/* ... */
   parser: '@typescript-eslint/parser',
   extends: [
     'bb8dd'
   ],
-// ...
-```
-```js
-// tsconfig.json
-// ...
+/* ... */
   parserOptions: {
     project: ['tsconfig.json'],
     tsconfigRootDir: __dirname,
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
-// ...
+/* ... */
 ```
 
 ## code
