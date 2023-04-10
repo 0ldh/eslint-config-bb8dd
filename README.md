@@ -20,6 +20,7 @@ npm install eslint-config-bb8dd
   ],
 /* ... */
   parserOptions: {
+    createDefaultProgram: true,
     project: ['tsconfig.json'],
     tsconfigRootDir: __dirname,
     ecmaVersion: 'latest',
